@@ -61,17 +61,17 @@ Test-Driven Development usually comes with automated tests. So when you write yo
 
 Test-Driven development has been described a lot and you might find several versions of it. Usually you will find at least 3 steps: Test, Code, Refactor.
 
-Common questions: until when do I refactor? When do I stop refactoring?
+_Common questions: until when do I refactor? When do I stop refactoring?_
 
-When I refactor I make the code ready so that I can green the next test very fast. In real life, I might not even know what the next test will be. Coding-dojos are about practising to take advantage of this practise in the "real world" where uncertainty is the rule. Ideally, I refactor to be ready to welcome ...anything. "Welcome change even late in the development" should remind you something. Refactor until you are ready to welcome change, until you trust that your velocity will stay stable.
+_When I refactor I make the code ready so that I can green the next test very fast. In real life, I might not even know what the next test will be. Coding-dojos are about practising to take advantage of this practise in the "real world" where uncertainty is the rule. Ideally, I refactor to be ready to welcome ...anything. "Welcome change even late in the development" should remind you something. Refactor until you are ready to welcome change, until you trust that your velocity will stay stable._
 
-When I design/write test, I'm identifying what I need from that software. In real life, I might have to collaborate with a customer (!) to identify what we need to build. He/She might be very unclear about what he/she needs. When we know in our brain what we need, we identify maybe a list of tests, we write a test, designing at the same time the architecture that we need. 
+_When I design/write test, I'm identifying what I need from that software. In real life, I might have to collaborate with a customer (!) to identify what we need to build. He/She might be very unclear about what he/she needs. When we know in our brain what we need, we identify maybe a list of tests, we write a test, designing at the same time the architecture that we need._
 
-When I make the code pass, I'm "authorized" to write any crapy code I need to green the test (yes even copy/paste code).
+_When I make the code pass, I'm "authorized" to write any crapy code I need to green the test (yes even copy/paste code)._
 
-You probably act more like a Professional during the Test and Refactor steps than in the Code step.
+_You probably act more like a Professional during the Test and Refactor steps than in the Code step._
 
-What if software developers were hired for their ability to write tests and refactor code, rather then for their ability to write code?
+_What if software developers were hired for their ability to write tests and refactor code, rather then for their ability to write code?_
 
 
 People doing sport practice every day, in order to be better during the next competition. Your favourite hockey team continue to practice even when competition happens every day, fine tuning anything that could help them to be better.
