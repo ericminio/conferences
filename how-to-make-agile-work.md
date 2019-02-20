@@ -47,7 +47,7 @@ I choose to point out those because their format does not leave room for debate.
 
 And actually, this is what they pretend. In the introduction, on the first page of the manifesto, we find the root of their certainties: “We are uncovering better ways of developing software by doing it and helping others do it”.  Note the present progressive form though, which suggests that they acknowledge that their journey towards better ways of developing software is not over.
 
-They root their certainties into their experience in the field. The authors who wrote the Agile manifesto did not write it right out of university. They had already spent a whole career in the IT industry. And it was not one or two friends speaking as one brain neither, but distinct professionals with different opinions about what people should focus on. And after that they continued to challenge each other. As an evidence of this, consider the letter[1] that Martin Fowler wrote in 2009 about flaccid Scrum which led Ken Schwaber to create scrum.org[2].
+They root their certainties into their experience in the field. The authors who wrote the Agile manifesto did not write it right out of university. They had already spent a whole career in the IT industry. And it was not one or two friends speaking as one brain neither, but distinct professionals with different opinions about what people should focus on. And after that they continued to challenge each other. As an evidence of this, consider the letter([1]) that Martin Fowler wrote in 2009 about flaccid Scrum which led Ken Schwaber to create scrum.org([2]).
 
 In this letter, Martin emphasizes the need for good technical practices and Extreme Programming as a relevant starting point.
 
@@ -80,7 +80,7 @@ How often do you practice your software development skills and let the competiti
 
 Practising coding katas solo is relevant of course. Creating spaces for the team to share and learn together is critical to create a foundation for the team to build on when time for competition comes back.
 
-Consider coding dojos, pair-programming, mob-programming. Display code on a screen, refactor code in groups, compare your favourite code smells, practice your ability to identify tough code smells like DivergentChange or ShotgunSurgery[3], do a code challenge with your team… and start over!
+Consider coding dojos, pair-programming, mob-programming. Display code on a screen, refactor code in groups, compare your favourite code smells, practice your ability to identify tough code smells like DivergentChange or ShotgunSurgery([3]), do a code challenge with your team… and start over!
 
 
 [1]: https://martinfowler.com/bliki/FlaccidScrum.html
