@@ -26,13 +26,13 @@ It is in the second page that the promise of Agile is actually disclosed.
 
 Some might argue that the first page is full of promises. I simply find some elements in the second page way easier to measure, assess, or implement.
 
-Out of the 12 principles, the 3 first are focussing on customer satisfaction, early and frequent deliveries, being very clear that by frequent we mean a pace between a couple of weeks and a couple of months.
+Out of the 12 principles, the 3 first are focussing on customer satisfaction, early and frequent deliveries, being very clear that by _frequent_ we mean a pace between a couple of weeks and a couple of months.
 
 So, from a customer point of view, the promise is crystal clear: Agile means that he/she can expect an agile team to deliver a valuable working software every couple of months. It is a fair expectation for any customer / client / Product Owner to have after reading this manifesto in front of a team / company pretending to be agile.
 
 The target is set. 
 
-This target is very intimidating. Think about it seriously. Monday morning you start the clock and in a couple of months later you and your team will deliver a valuable working software to your customer, and, if relevant, you will keep the pace of adding at least one valuable feature after another couple of months, and so on… And this couple-of-months is said to be the minimal pace… And take working and valuable software for what it is: software deployed in production and used by someone.
+This target is very intimidating. Think about it seriously. Monday morning you start the clock and in a couple of months later you and your team will deliver a valuable working software to your customer, and, if relevant, you will keep the pace of adding at least one valuable feature after another couple of months, and so on… And this couple-of-months is said to be the minimal pace… And take _working_ and _valuable_ software for what it is: software deployed in production and used by someone.
 
 So, how does a team deliver such promise?
 
