@@ -67,7 +67,7 @@ Test-Driven development has been described a lot and you might find several vers
 
 _Common questions: until when do I refactor? When do I stop refactoring?_
 
-_When I refactor I make the code ready so that I can green the next test very fast. In real life, I might not even know what the next test will be. Coding-dojos are about practising to take advantage of this practise in the "real world" where uncertainty is the rule. Ideally, I refactor to be ready to welcome ...anything. "Welcome change even late in the development" should remind you something. Refactor until you are ready to welcome change, until you trust that your velocity will stay stable._
+_When I refactor I make the code ready so that I can green the next test very fast. In real life, I might not even know what the next test will be. Coding-dojos are about practicing to take advantage of this practice in the "real world" where uncertainty is the rule. Ideally, I refactor to be ready to welcome ...anything. "Welcome change even late in the development" should remind you something. Refactor until you are ready to welcome change, until you trust that your velocity will stay stable._
 
 _When I design/write test, I'm identifying what I need from that software. In real life, I might have to collaborate with a customer (!) to identify what we need to build. He/She might be very unclear about what he/she needs. When we know in our brain what we need, we identify maybe a list of tests, we write a test, designing at the same time the architecture that we need._
 
