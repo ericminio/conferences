@@ -67,7 +67,7 @@ When I write a test, I'm identifying what I need from that software. In real lif
 
 When I make the code pass, I'm "authorized" to write any crapy code I need to green the test (yes even copy/paste code).
 
-When I refactor I make the code ready so that I can green the next test very fast. In real life, I might not even know what the next test will be. Coding-dojos are about practicing to take advantage of this practice in the "real world" where uncertainty is the rule. Ideally, I refactor to be ready to welcome... anything! "Welcome change even late in the development" should remind you something. Refactor until you are ready to welcome change, until you trust that your velocity will stay stable.
+When I refactor I make the code ready so that I can green the next test very fast. In real life, I might not even know what the next test will be. Ideally, I refactor to be ready to welcome... anything! "Welcome change even late in the development" should remind you something. Refactor until you are ready to welcome change, until you trust that your velocity will stay stable.
 
 _You probably act more like a Professional during the Test and Refactor steps than in the Code step._
 
@@ -77,7 +77,7 @@ Professional athletes practice their sport every day, in order to be better duri
 
 How often do you practice your software development skills and let the competition aside for a moment?
 
-Practicing coding katas solo is relevant. Creating spaces for the team to share and learn together is critical to create a foundation for the team to build on when time for competition comes back. Consider coding dojos, pair-programming, mob-programming, hexagonal architecture, domain-driven design. Refactor code in groups, compare your favourite code smells[[4]], do a code challenge with your team… and start over!
+Coding-dojos are about practicing TDD to take advantage of it in the "real world" where uncertainty is the rule. Practicing coding katas solo is relevant. Creating spaces for the team to share and learn together is critical to create a foundation for the team for when the time for competition comes back. Consider pair-programming, mob-programming, hexagonal architecture, domain-driven design, ... Refactor code in groups, compare your favourite code smells[[4]], do a code challenge with your team… and start over!
 
 
 [1]:https://martinfowler.com/bliki/FlaccidScrum.html
