@@ -67,7 +67,7 @@ When I write a test, I'm identifying what I need from that software. In real lif
 
 When I make the code pass, I'm "authorized" to write any crapy code I need to green the test (yes even copy/paste code).
 
-When I refactor I make the code ready so that the next test is easy to write[[5]]. In real life, I might not even know what the next test will be. Ideally, I refactor to be ready to welcome... anything! "Welcome change even late in the development" should remind you something. Refactor until you are ready to welcome change, until you trust that your velocity will stay stable.
+When I refactor I make the code ready so that the next test is easy to write[[5]]. In real life, I might not even know what the next test will be. Ideally, I refactor to be ready to welcome... anything! Welcome change "even late in the development" should remind you something. Refactor until you are ready to welcome change, until you trust that your velocity will stay stable.
 
 _You probably act more like a Professional during the Test and Refactor steps than in the Code step._
 
