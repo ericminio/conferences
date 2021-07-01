@@ -18,8 +18,8 @@ What is the promise of Agile in the first place?
 
 From the Agile Manifesto, we can extrapolate some promises. This manifesto has several sections that we can study one by one and all together:
 1. An introduction
-2. A section usually called the values
-3. A general insight about the values
+2. A section often called _the values_
+3. A general insight about those values
 4. A second page listing 12 principles
 
 It is in the second page that the promise of Agile is actually disclosed. 
