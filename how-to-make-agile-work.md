@@ -47,7 +47,7 @@ I choose to point out those because their format does not leave room for debate.
 
 And actually, this is what they pretend. In the introduction, on the first page of the manifesto, we find the root of their certainties: 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"We are uncovering better ways of developing software by doing it and helping others do it”_  
+&nbsp;&nbsp;&nbsp;&nbsp;_"We are uncovering better ways of developing software by doing it and helping others do it”_  
 
 Note the present progressive form, which suggests that they acknowledge that their journey towards better ways of developing software is not over.
 
@@ -59,7 +59,7 @@ This is where we find Test-Driven development (TDD) in the first circle.
 
 How does TDD help with the promise of Agile?
 
-The key here is behind the sustainable pace idea. One team could rely on manual testing during one iteration or two, but what happens after 14 iterations, after 42 iterations? What if the manual regression testing eats all the iteration? You end up with a dead product that you can not extend anymore and the promise of Agile is broken. If you are able to create automated tests that run fast, then you _can_ avoid this dead end.
+One key here is behind the sustainable pace idea. One team could rely on manual testing during one iteration or two, but what happens after 14 iterations, after 42 iterations? What if the manual regression testing eats all the iteration? You end up with a dead product that you can not extend anymore and the promise of Agile is broken. If you are able to create automated tests that run fast, then you _can_ avoid this dead end. And as you might know, TDD is actually _not_ about testing, and will usually call for a rethink of the tools, libraries, and architecture that you build and use. Listening to the call or not is up to you.
 
 Test-Driven Development usually comes with automated tests. So when you write your tests first, your regression tests come for free and you avoid the above dead end.
 
@@ -67,24 +67,24 @@ Test-Driven development has been described a lot and you might find several vers
 
 _Common questions: until when do I refactor? When do I stop refactoring?_
 
-_When I refactor I make the code ready so that I can green the next test very fast. In real life, I might not even know what the next test will be. Coding-dojos are about practicing to take advantage of this practice in the "real world" where uncertainty is the rule. Ideally, I refactor to be ready to welcome ...anything. "Welcome change even late in the development" should remind you something. Refactor until you are ready to welcome change, until you trust that your velocity will stay stable._
+When I refactor I make the code ready so that I can green the next test very fast. In real life, I might not even know what the next test will be. Coding-dojos are about practicing to take advantage of this practice in the "real world" where uncertainty is the rule. Ideally, I refactor to be ready to welcome ...anything. "Welcome change even late in the development" should remind you something. Refactor until you are ready to welcome change, until you trust that your velocity will stay stable.
 
-_When I design/write test, I'm identifying what I need from that software. In real life, I might have to collaborate with a customer (!) to identify what we need to build. He/She might be very unclear about what he/she needs. When we know in our brain what we need, we identify maybe a list of tests, we write a test, designing at the same time the architecture that we need._
+When I design/write test, I'm identifying what I need from that software. In real life, I might have to collaborate with a customer (!) to identify what we need to build. He/She might be very unclear about what he/she needs. When we know in our brain what we need, we identify maybe a list of tests, we write a test, designing at the same time the architecture that we need.
 
-_When I make the code pass, I'm "authorized" to write any crapy code I need to green the test (yes even copy/paste code)._
+When I make the code pass, I'm "authorized" to write any crapy code I need to green the test (yes even copy/paste code).
 
 _You probably act more like a Professional during the Test and Refactor steps than in the Code step._
 
 _What if software developers were hired for their ability to write tests and refactor code, rather then for their ability to write code?_
 
 
-People doing sport practice every day, in order to be better during the next competition. Your favourite hockey team continue to practice even when competition happens every day, fine tuning anything that could help them to be better.
+People doing sport practice every day, in order to be better during the next competition. Your favourite hockey team continues to practice even when competition happens every day, fine tuning anything that could help them to be better.
 
 How often do you practice your software development skills and let the competition aside for a moment?
 
 Practicing coding katas solo is relevant of course. Creating spaces for the team to share and learn together is critical to create a foundation for the team to build on when time for competition comes back.
 
-Consider coding dojos, pair-programming, mob-programming. Display code on a screen, refactor code in groups, compare your favourite code smells, practice your ability to identify challenging code smells[[3]] like DivergentChange or ShotgunSurgery, do a code challenge with your team… and start over!
+Consider coding dojos, pair-programming, mob-programming, hexagonal architecture, domain-driven design. Display code on a screen, refactor code in groups, compare your favourite code smells, practice your ability to identify challenging code smells[[3]] like DivergentChange or ShotgunSurgery, do a code challenge with your team… and start over!
 
 
 [1]:https://martinfowler.com/bliki/FlaccidScrum.html
