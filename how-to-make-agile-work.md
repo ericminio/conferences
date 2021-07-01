@@ -78,9 +78,7 @@ Professional athletes practice their sport every day, in order to be better duri
 
 How often do you practice your software development skills and let the competition aside for a moment?
 
-Practicing coding katas solo is relevant of course. Creating spaces for the team to share and learn together is critical to create a foundation for the team to build on when time for competition comes back.
-
-Consider coding dojos, pair-programming, mob-programming, hexagonal architecture, domain-driven design. Display code on a screen, refactor code in groups, compare your favourite code smells, practice your ability to identify challenging code smells[[4]] like DivergentChange or ShotgunSurgery, do a code challenge with your team… and start over!
+Practicing coding katas solo is relevant. Creating spaces for the team to share and learn together is critical to create a foundation for the team to build on when time for competition comes back. Consider coding dojos, pair-programming, mob-programming, hexagonal architecture, domain-driven design. Refactor code in groups, compare your favourite code smells[[4]], do a code challenge with your team… and start over!
 
 
 [1]:https://martinfowler.com/bliki/FlaccidScrum.html
