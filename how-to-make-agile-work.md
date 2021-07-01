@@ -57,7 +57,7 @@ This is where we find Test-Driven development (TDD), in the first circle[[4]].
 
 How does TDD help with delivering the promise of Agile?
 
-One key component I believe is the sustainable pace practice, from the second circle[[4]]. One team could rely on manual testing during one iteration or two, but what happens after 14 iterations, after 42 iterations? What if the manual regression testing eats all the time? You end up with a dead product that you can not extend anymore and the promise of Agile is broken. If you are able to create automated tests that run fast, then you _can_ avoid this dead end. And as you might know, TDD is actually _not_ about testing, and will usually call for a rethink of the tools, libraries, and architecture that you build and use. Answering the call is up to you.
+One key component I believe is the sustainable pace practice, from the second circle[[4]]. One team could rely on manual testing during one iteration or two, but what happens after 15 iterations, after 42 iterations? What if the manual regression testing eats all the time? You end up with a dead product that you can not extend anymore and the promise of Agile is broken. If you are able to create automated tests that run fast, then you _can_ avoid this dead end. And as you might know, TDD is actually _not_ about testing, and will usually call for a rethink of the tools, libraries, and architecture that you build and use. Answering the call is up to you.
 
 Test-Driven Development usually comes with automated tests. So when you write your tests first, your regression test harness comes for free. Test-Driven development has been described a lot and you might find several versions of it. Usually you will find at least 3 steps: Test, Code, Refactor.
 
