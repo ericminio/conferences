@@ -1,11 +1,17 @@
-# How to leverage the MagicNumber pattern
+# How to leverage the MagicNumber pattern #IRL
 
 ## Magic what?
 
-PrimeFactors Coding kata:
+When you start reading about and trying Test-Driven Development (TDD), you very often discover the coding katas practice. And not long after you watch a video or you attend a conference and you see that the next move to answer the first failing test is to return the hardcoded value that greens the test. With the prime factors kata, it would look similar to the following.
 
-1. expect(primeFactorsOf(1492)).to.equal([2, 2, 373])
-2. let primeFactorsOf = (number) => { return **[2, 2, 373]**; } // _hardcoded value: **MagicNumber** [[1]] code smell_
+```javascript
+...
+expect(primeFactorsOf(1492)).to.equal([2, 2, 373])
+...
+let primeFactorsOf = (number) => { return [2, 2, 373]; }
+```
+
+**[2, 2, 373]**, hardcoded value, the **MagicNumber** [[1]]
 
 Then what?
 And especially how is that useful for real life?
