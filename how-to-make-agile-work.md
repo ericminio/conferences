@@ -37,15 +37,17 @@ This target is very intimidating. Think about it seriously. Monday morning you s
 So, how does a team deliver such promise?
 
 The agile manifesto is actually full of advices about how to make that happen. Some are straightforward: 
-* principle #4: business people and developers must work together daily throughout the project. 
-* principle #6: The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
-* Principle #12: At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behaviour accordingly
+> Business people and developers must work together daily throughout the project. 
+
+> The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+
+> At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behaviour accordingly
 
 I choose to point out those because their format does not leave room for debate. The active form of the verbs is used and it is not a matter of “should” or “could”, but “must”, “is”, “reflects”, “tunes”, “adjusts”. As if the authors had made their mind around all this a long time ago. 
 
 And actually, this is what they pretend. In the introduction, on the first page of the manifesto, we find the root of their certainties: 
 
-&nbsp;&nbsp;&nbsp;&nbsp;_"We are uncovering better ways of developing software by doing it and helping others do it”_  
+> We are uncovering better ways of developing software by doing it and helping others do it. 
 
 Notice the present progressive form, which suggests that they acknowledge that their journey towards better ways of developing software is not over.
 
