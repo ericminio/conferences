@@ -84,7 +84,7 @@ How often do you practice your software development skills and let the competiti
 
 Practicing coding katas solo is relevant of course. Creating spaces for the team to share and learn together is critical to create a foundation for the team to build on when time for competition comes back.
 
-Consider coding dojos, pair-programming, mob-programming. Display code on a screen, refactor code in groups, compare your favourite code smells, practice your ability to identify tough code smells[[3]] like DivergentChange or ShotgunSurgery, do a code challenge with your team… and start over!
+Consider coding dojos, pair-programming, mob-programming. Display code on a screen, refactor code in groups, compare your favourite code smells, practice your ability to identify challenging code smells[[3]] like DivergentChange or ShotgunSurgery, do a code challenge with your team… and start over!
 
 
 [1]:https://martinfowler.com/bliki/FlaccidScrum.html
