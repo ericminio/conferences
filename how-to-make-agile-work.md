@@ -16,7 +16,7 @@ How to make Agile work?
 
 What is the promise of Agile in the first place?
 
-From the Agile Manifesto, we can extrapolate some promises. This manifesto has several sections that we can study one by one and all together:
+From the Agile Manifesto[[1]], we can extrapolate some promises. This manifesto has several sections that we can study one by one and all together:
 1. An introduction
 2. A section often called _the values_
 3. A general insight about those values
@@ -49,15 +49,15 @@ And actually, this is what they pretend. In the introduction, on the first page 
 
 Notice the present progressive form, which suggests that they acknowledge that their journey towards better ways of developing software is not over.
 
-They root their certainties into their experience in the field. The authors who wrote the Agile manifesto did not write it right out of university. Some had already made a career in the IT industry. And it was not one or two friends speaking as one brain neither, but distinct professionals with different opinions about what people should focus on. And after writing the manifesto, they continued to challenge each other. As an evidence of this, consider the letter[[1]] that Martin Fowler wrote in 2009 about flaccid Scrum which led Ken Schwaber to create scrum.org[[2]].
+They root their certainties into their experience in the field. The authors who wrote the Agile manifesto did not write it right out of university. Some had already made a career in the IT industry. And it was not one or two friends speaking as one brain neither, but distinct professionals with different opinions about what people should focus on. And after writing the manifesto, they continued to challenge each other. As an evidence of this, consider the letter[[2]] that Martin Fowler wrote in 2009 about flaccid Scrum which led Ken Schwaber to create scrum.org[[3]].
 
 In this letter, Martin emphasizes the need for good technical practices and Extreme Programming as a relevant starting point.
 
-This is where we find Test-Driven development (TDD), in the first circle[[3]].
+This is where we find Test-Driven development (TDD), in the first circle[[4]].
 
 How does TDD help with the promise of Agile?
 
-One key here is behind the sustainable pace idea, from the second circle[[3]]. One team could rely on manual testing during one iteration or two, but what happens after 14 iterations, after 42 iterations? What if the manual regression testing eats all the time? You end up with a dead product that you can not extend anymore and the promise of Agile is broken. If you are able to create automated tests that run fast, then you _can_ avoid this dead end. And as you might know, TDD is actually _not_ about testing, and will usually call for a rethink of the tools, libraries, and architecture that you build and use. Answering the call is up to you.
+One key here is behind the sustainable pace idea, from the second circle[[4]]. One team could rely on manual testing during one iteration or two, but what happens after 14 iterations, after 42 iterations? What if the manual regression testing eats all the time? You end up with a dead product that you can not extend anymore and the promise of Agile is broken. If you are able to create automated tests that run fast, then you _can_ avoid this dead end. And as you might know, TDD is actually _not_ about testing, and will usually call for a rethink of the tools, libraries, and architecture that you build and use. Answering the call is up to you.
 
 Test-Driven Development usually comes with automated tests. So when you write your tests first, your regression tests come for free. Test-Driven development has been described a lot and you might find several versions of it. Usually you will find at least 3 steps: Test, Code, Refactor.
 
@@ -67,7 +67,7 @@ When I write a test, I'm identifying what I need from that software. In real lif
 
 When I make the code pass, I'm "authorized" to write any crapy code I need to green the test (yes even copy/paste code).
 
-When I refactor I make the code ready so that the next test is easy to write[[4]]. In real life, I might not even know what the next test will be. Ideally, I refactor to be ready to welcome... anything! "Welcome change even late in the development" should remind you something. Refactor until you are ready to welcome change, until you trust that your velocity will stay stable.
+When I refactor I make the code ready so that the next test is easy to write[[5]]. In real life, I might not even know what the next test will be. Ideally, I refactor to be ready to welcome... anything! "Welcome change even late in the development" should remind you something. Refactor until you are ready to welcome change, until you trust that your velocity will stay stable.
 
 _You probably act more like a Professional during the Test and Refactor steps than in the Code step._
 
@@ -79,8 +79,8 @@ How often do you practice your software development skills and let the competiti
 
 Coding-dojos are about practicing TDD to take advantage of it in the "real world" where uncertainty is the rule. Practicing coding katas solo is relevant. Creating spaces for the team to share and learn together is critical to create a foundation for the team for when the time for competition comes back. Consider pair-programming, mob-programming, hexagonal architecture, domain-driven design, ... Refactor code in groups, compare your favourite code smells, do a code challenge with your team… and start over!
 
-
-[1]:https://martinfowler.com/bliki/FlaccidScrum.html
-[2]:https://www.scrum.org/about
-[3]:https://ronjeffries.com/xprog/what-is-extreme-programming/
-[4]:http://www.natpryce.com/articles/000780.html
+[1]:http://agilemanifesto.org/
+[2]:https://martinfowler.com/bliki/FlaccidScrum.html
+[3]:https://www.scrum.org/about
+[4]:https://ronjeffries.com/xprog/what-is-extreme-programming/
+[5]:http://www.natpryce.com/articles/000780.html
