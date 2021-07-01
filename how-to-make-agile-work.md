@@ -74,7 +74,7 @@ _You probably act more like a Professional during the Test and Refactor steps th
 _What if software developers were hired for their ability to write tests and refactor code, rather then for their ability to write code?_
 
 
-People doing sport practice every day, in order to be better during the next competition. Your favourite hockey team continues to practice even when competition happens every day, fine tuning anything that could help them to be better.
+Professional athletes practice their sport every day, in order to be better during the next competition. Your favourite hockey team continues to practice even when competition happens every day, fine tuning anything that could help them to be better.
 
 How often do you practice your software development skills and let the competition aside for a moment?
 
