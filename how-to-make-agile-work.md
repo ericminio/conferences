@@ -28,7 +28,7 @@ Some might argue that the first page is full of promises. I simply find some ele
 
 Out of the 12 principles, the first 3 are focussing on customer satisfaction, early and frequent deliveries, being very clear that by _frequent_ we mean a pace between a couple of weeks and a couple of months.
 
-So, from a customer point of view, the promise of Agile is crystal clear: Agile means that he/she can expect an agile team to deliver a valuable working software every couple of months, at at least a stable price. It is a fair expectation for any customer / client / Product Owner to have, after reading this manifesto, from a team / company pretending to be agile.
+So, from a customer point of view, the promise of Agile is crystal clear: Agile means that the customer can expect an agile team to deliver a valuable working software every couple of months, at at least a stable price. It is a fair expectation for any customer / client / Product Owner to have, after reading this manifesto, from a team / company pretending to be agile.
 
 The target is set. 
 
