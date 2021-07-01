@@ -77,10 +77,9 @@ Professional athletes practice their sport every day, in order to be better duri
 
 How often do you practice your software development skills and let the competition aside for a moment?
 
-Coding-dojos are about practicing TDD to take advantage of it in the "real world" where uncertainty is the rule. Practicing coding katas solo is relevant. Creating spaces for the team to share and learn together is critical to create a foundation for the team for when the time for competition comes back. Consider pair-programming, mob-programming, hexagonal architecture, domain-driven design, ... Refactor code in groups, compare your favourite code smells[[4]], do a code challenge with your team… and start over!
+Coding-dojos are about practicing TDD to take advantage of it in the "real world" where uncertainty is the rule. Practicing coding katas solo is relevant. Creating spaces for the team to share and learn together is critical to create a foundation for the team for when the time for competition comes back. Consider pair-programming, mob-programming, hexagonal architecture, domain-driven design, ... Refactor code in groups, compare your favourite code smells, do a code challenge with your team… and start over!
 
 
 [1]:https://martinfowler.com/bliki/FlaccidScrum.html
 [2]:https://www.scrum.org/about
 [3]:https://ronjeffries.com/xprog/what-is-extreme-programming/
-[4]:https://refactoring.guru/refactoring/smells
