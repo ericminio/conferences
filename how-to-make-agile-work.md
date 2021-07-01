@@ -47,7 +47,7 @@ And actually, this is what they pretend. In the introduction, on the first page 
 
 &nbsp;&nbsp;&nbsp;&nbsp;_"We are uncovering better ways of developing software by doing it and helping others do it”_  
 
-Note the present progressive form, which suggests that they acknowledge that their journey towards better ways of developing software is not over.
+Notice the present progressive form, which suggests that they acknowledge that their journey towards better ways of developing software is not over.
 
 They root their certainties into their experience in the field. The authors who wrote the Agile manifesto did not write it right out of university. They had already spent a whole career in the IT industry. And it was not one or two friends speaking as one brain neither, but distinct professionals with different opinions about what people should focus on. And after that they continued to challenge each other. As an evidence of this, consider the letter[[1]] that Martin Fowler wrote in 2009 about flaccid Scrum which led Ken Schwaber to create scrum.org[[2]].
 
