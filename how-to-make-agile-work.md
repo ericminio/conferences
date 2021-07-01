@@ -53,7 +53,7 @@ They root their certainties into their experience in the field. The authors who 
 
 In this letter, Martin emphasizes the need for good technical practices and Extreme Programming as a relevant starting point.
 
-This is where we find Test-Driven development (TDD) in the first circle.
+This is where we find Test-Driven development (TDD), in the first circle[[3]].
 
 How does TDD help with the promise of Agile?
 
@@ -82,12 +82,13 @@ How often do you practice your software development skills and let the competiti
 
 Practicing coding katas solo is relevant of course. Creating spaces for the team to share and learn together is critical to create a foundation for the team to build on when time for competition comes back.
 
-Consider coding dojos, pair-programming, mob-programming, hexagonal architecture, domain-driven design. Display code on a screen, refactor code in groups, compare your favourite code smells, practice your ability to identify challenging code smells[[3]] like DivergentChange or ShotgunSurgery, do a code challenge with your team… and start over!
+Consider coding dojos, pair-programming, mob-programming, hexagonal architecture, domain-driven design. Display code on a screen, refactor code in groups, compare your favourite code smells, practice your ability to identify challenging code smells[[4]] like DivergentChange or ShotgunSurgery, do a code challenge with your team… and start over!
 
 
 [1]:https://martinfowler.com/bliki/FlaccidScrum.html
 [2]:https://www.scrum.org/about
-[3]:https://refactoring.guru/refactoring/smells
+[3]:https://ronjeffries.com/xprog/what-is-extreme-programming/
+[4]:https://refactoring.guru/refactoring/smells
 
 
 
