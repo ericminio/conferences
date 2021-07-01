@@ -36,7 +36,7 @@ This target is very intimidating. Think about it seriously. Monday morning you s
 
 So, how does a team deliver such promise?
 
-The agile manifesto is actually full of advices about how to make Agile work. Some are straightforward: 
+The agile manifesto is actually full of advices about how to make that happen. Some are straightforward: 
 * principle #4: business people and developers must work together daily throughout the project. 
 * principle #6: The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
 * Principle #12: At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behaviour accordingly
