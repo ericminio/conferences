@@ -45,9 +45,13 @@ Some advices are crystal clear:
 
 I choose to point out those because their format does not leave room for debate. The active form of the verbs is used and it is not a matter of “should” or “could”, but “must”, “is”, “reflects”, “tunes”, “adjusts”. As if the authors had made their mind around all this a long time ago. 
 
-And actually, this is what they pretend. In the introduction, on the first page of the manifesto, we find the root of their certainties: “We are uncovering better ways of developing software by doing it and helping others do it”.  Note the present progressive form though, which suggests that they acknowledge that their journey towards better ways of developing software is not over.
+And actually, this is what they pretend. In the introduction, on the first page of the manifesto, we find the root of their certainties: 
 
-They root their certainties into their experience in the field. The authors who wrote the Agile manifesto did not write it right out of university. They had already spent a whole career in the IT industry. And it was not one or two friends speaking as one brain neither, but distinct professionals with different opinions about what people should focus on. And after that they continued to challenge each other. As an evidence of this, consider the letter([1]) that Martin Fowler wrote in 2009 about flaccid Scrum which led Ken Schwaber to create scrum.org([2]).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"We are uncovering better ways of developing software by doing it and helping others do it”_  
+
+Note the present progressive form, which suggests that they acknowledge that their journey towards better ways of developing software is not over.
+
+They root their certainties into their experience in the field. The authors who wrote the Agile manifesto did not write it right out of university. They had already spent a whole career in the IT industry. And it was not one or two friends speaking as one brain neither, but distinct professionals with different opinions about what people should focus on. And after that they continued to challenge each other. As an evidence of this, consider the letter [[1]] that Martin Fowler wrote in 2009 about flaccid Scrum which led Ken Schwaber to create scrum.org [[2]].
 
 In this letter, Martin emphasizes the need for good technical practices and Extreme Programming as a relevant starting point.
 
@@ -78,12 +82,12 @@ People doing sport practice every day, in order to be better during the next com
 
 How often do you practice your software development skills and let the competition aside for a moment?
 
-Practising coding katas solo is relevant of course. Creating spaces for the team to share and learn together is critical to create a foundation for the team to build on when time for competition comes back.
+Practicing coding katas solo is relevant of course. Creating spaces for the team to share and learn together is critical to create a foundation for the team to build on when time for competition comes back.
 
-Consider coding dojos, pair-programming, mob-programming. Display code on a screen, refactor code in groups, compare your favourite code smells, practice your ability to identify tough code smells like DivergentChange or ShotgunSurgery([3]), do a code challenge with your team… and start over!
+Consider coding dojos, pair-programming, mob-programming. Display code on a screen, refactor code in groups, compare your favourite code smells, practice your ability to identify tough code smells like DivergentChange or ShotgunSurgery [[3]], do a code challenge with your team… and start over!
 
 
-[1]: https://martinfowler.com/bliki/FlaccidScrum.html
+[1]:https://martinfowler.com/bliki/FlaccidScrum.html
 [2]:https://www.scrum.org/about
 [3]:https://refactoring.guru/refactoring/smells
 
