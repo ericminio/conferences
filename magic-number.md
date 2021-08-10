@@ -14,6 +14,9 @@ let primeFactorsOf = (number) => { return [2, 2, 373]; }
 **[2, 2, 373]**, hardcoded value, the **MagicNumber** [[1]]
 
 Then what?
+
 And especially how is that useful for real life?
+
+
 
 [1]:https://wiki.c2.com/?MagicNumber
