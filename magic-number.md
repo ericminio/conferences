@@ -15,7 +15,7 @@ let primeFactorsOf = (number) => { return [2, 2, 373]; }
 
 Then what?
 
-And especially how is that useful for real life?
+And how is that useful for real life?
 
 
 
