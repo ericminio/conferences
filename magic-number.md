@@ -42,16 +42,22 @@ class Mathematician {
 
 We moved the MagicNumber. Test is still green. And the production code is one step further towards my target.
 
-What is the next move now? Now I have the opportunity to write an internal test against the Mathematician class, instead of writing another external test. This is also something I want to practice. Idon't want to rely only on external tests. Remember the test pyramid [[2]]!
+What is the next move now? Now I have the opportunity to write an internal test against the Mathematician class, instead of writing another external test. This is also something I want to practice. I don't want to rely only on external tests. Remember the test pyramid [[2]]!
 
 ## In Real Life
 
 In the context of a web app, when the http request hits the server, then probably the http component will ask for help to another component. Moving the MagicNumber in this other component makes you remove it from the http component. In order to do that, chances are your http component will have to be more generic, cleaner, and the refactoring opportunities will move along with the MagicNumber to the other component.
 
-Thanks to the coding kata practice, my muscles memory is telling me to write internal tests along with this refactoring effort to move and eventually remove the MagicNumber.
+Thanks to the coding kata practice, my muscles memory is telling me to write internal tests along with this refactoring effort of moving and eventually removing the MagicNumber.
 
-I continue the game of moving the MagicNumber in the architecture until I hit a leaf: no more other component to which I can push the MagicNumber. This is when time has come to remove the MagicNumber.
+I continue the game of moving the MagicNumber in the architecture until I hit a leaf: no more other component to which I can push the MagicNumber. This is when time has come to remove the MagicNumber. 
+
+You probably noted that I am a big fan of the outside-in tdd approach which works very well for me with the hexagonal architecture [[3]]. When the first test is an external test, like a Selinium test for example, you could be in a position where the leaf that you hit makes you read in the database to actually fetch some data to remove the MagicNumber. Chances are that when you do that the test will turn red because you did not insert anything in the first place. When that happens, don't panic, just use MagicNumber again on the writing-data side of the story.
+
+Hope that helps :)
 
 
 [1]:https://wiki.c2.com/?MagicNumber
 [2]:https://martinfowler.com/articles/practical-test-pyramid.html
+[3]:https://alistair.cockburn.us/hexagonal-architecture/
+
