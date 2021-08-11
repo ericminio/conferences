@@ -8,7 +8,7 @@ When you start reading about and trying Test-Driven Development (TDD), you very 
 ...
 expect(primeFactorsOf(1492)).to.equal([2, 2, 373])
 ...
-let primeFactorsOf = (number) => { return [2, 2, 373]; }
+let primeFactorsOf = (number) => [2, 2, 373]
 ```
 
 **[2, 2, 373]**, hardcoded value, the **MagicNumber** [[1]]
