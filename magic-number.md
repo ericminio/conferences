@@ -44,13 +44,15 @@ What is the next move now? Now I have the opportunity to write an internal test 
 
 ## In Real Life
 
-In the context of a web app, when the http request hits the server, then probably the http component will ask for help to another component. Moving the MagicNumber in this other component makes you remove it from the http component. In order to do that, chances are your http component will have to be more generic, cleaner, and the refactoring opportunities will move along with the MagicNumber to the other component.
+In the context of a web app, when the http request hits the server, then probably the http component will ask for help to another component. Moving the MagicNumber in this other component makes you remove it from the http component. In order to do that, the http component will have to be more generic, cleaner, and the refactoring opportunities will move along with the MagicNumber to anoother component.
 
-Thanks to the coding kata practice, my muscles memory is telling me to write internal tests along with this refactoring effort of moving and eventually removing the MagicNumber.
+Thanks to the coding kata practice, my muscles memory is telling me to write internal tests along with this refactoring effort of moving and eventually removing the MagicNumber. I continue the game of moving the MagicNumber in the architecture until I hit a leaf: no more other component to which I can push the MagicNumber. This is when time has come to remove the MagicNumber. 
 
-I continue the game of moving the MagicNumber in the architecture until I hit a leaf: no more other component to which I can push the MagicNumber. This is when time has come to remove the MagicNumber. 
+## Final thought
 
-You probably noted that I am a big fan of the outside-in tdd approach which works very well for me with the hexagonal architecture [[3]]. When the first test is an external test, like a Selinium test for example, you could be in a position where the leaf that you hit is an adapter and you have to fetch data from a store to remove the MagicNumber. Chances are that when you do that the test will turn red because you did not insert anything in the first place because it was not the fastest way to green the test. When that happens, don't panic, just use MagicNumber again on the writing-data side of the story. This is when having written internal tests during the first phase is a fantastic level that makes this second phase very fast.
+You probably noted that I am a big fan of the outside-in tdd approach which works very well for me with the hexagonal architecture [[3]]. When my first test is an external test, like a Selinium test for example,I end up in a position where the leaf that I hit is an adapter and I have to fetch data from a store to remove the MagicNumber. When I do that the external test turns red because I did not insert any data in the first place because it was not the fastest way to green the test. 
+
+When that happens, no panic! I use MagicNumber again on the writing-data side of the story. This is when having written internal tests during the first phase is a fantastic level that makes this second phase very fast.
 
 Hope that helps :)
 
