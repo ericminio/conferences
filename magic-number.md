@@ -52,7 +52,7 @@ Thanks to the coding kata practice, my muscles memory is telling me to write int
 
 I continue the game of moving the MagicNumber in the architecture until I hit a leaf: no more other component to which I can push the MagicNumber. This is when time has come to remove the MagicNumber. 
 
-You probably noted that I am a big fan of the outside-in tdd approach which works very well for me with the hexagonal architecture [[3]]. When the first test is an external test, like a Selinium test for example, you could be in a position where the leaf that you hit makes you read in the database to actually fetch some data to remove the MagicNumber. Chances are that when you do that the test will turn red because you did not insert anything in the first place. When that happens, don't panic, just use MagicNumber again on the writing-data side of the story.
+You probably noted that I am a big fan of the outside-in tdd approach which works very well for me with the hexagonal architecture [[3]]. When the first test is an external test, like a Selinium test for example, you could be in a position where the leaf that you hit is an adapter and you have to fetch data from a store to remove the MagicNumber. Chances are that when you do that the test will turn red because you did not insert anything in the first place because it was not the fastest way to green the test. When that happens, don't panic, just use MagicNumber again on the writing-data side of the story.
 
 Hope that helps :)
 
