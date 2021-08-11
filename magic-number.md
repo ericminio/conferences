@@ -5,7 +5,7 @@
 When you start reading about and trying Test-Driven Development (TDD), you very often discover the coding katas practice. And not long after you watch a video or you attend a conference and you see that the next move to answer the first failing test is to return the hardcoded value that greens the test. With the prime factors kata, it would look similar to the following.
 
 ```javascript
-expect(primeFactorsOf(1492)).to.equal([2, 2, 373])
+expect(primeFactorsOf(1492)).to.deep.equal([2, 2, 373])
 
 let primeFactorsOf = (number) => [2, 2, 373]
 ```
@@ -23,7 +23,7 @@ Assuming a coding kata is useful for real life, then I want the next move to bui
 What works well for me is to **move the MagicNumber** inside my architecture, creating it if needed. In the context of a coding kata, it could mean something like the following.
 
 ```javascript
-expect(primeFactorsOf(1492)).to.equal([2, 2, 373])
+expect(primeFactorsOf(1492)).to.deep.equal([2, 2, 373])
 
 let primeFactorsOf = (number) => {
     let max = new Mathematician();
