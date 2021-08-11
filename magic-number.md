@@ -5,9 +5,8 @@
 When you start reading about and trying Test-Driven Development (TDD), you very often discover the coding katas practice. And not long after you watch a video or you attend a conference and you see that the next move to answer the first failing test is to return the hardcoded value that greens the test. With the prime factors kata, it would look similar to the following.
 
 ```javascript
-...
 expect(primeFactorsOf(1492)).to.equal([2, 2, 373])
-...
+
 let primeFactorsOf = (number) => [2, 2, 373]
 ```
 
@@ -24,17 +23,16 @@ Assuming a coding kata is useful for real life, then I want the next move to bui
 What works well for me at that stage is to **move the MagicNumber** inside my architecture, creating it if needed. In the context of a coding kata, it could mean something like the following.
 
 ```javascript
-...
 expect(primeFactorsOf(1492)).to.equal([2, 2, 373])
-...
+
 let primeFactorsOf = (number) => {
     let max = new Mathematician();
-    return max.primes(number);
+    return max.primesOf(number);
 }
 
 class Mathematician {
   
-    primes(number) {
+    primesOf(number) {
         return [2, 2, 373];
     }
 }
@@ -53,6 +51,32 @@ Thanks to the coding kata practice, my muscles memory is telling me to write int
 I continue the game of moving the MagicNumber in the architecture until I hit a leaf: no more other component to which I can push the MagicNumber. This is when time has come to remove the MagicNumber. 
 
 You probably noted that I am a big fan of the outside-in tdd approach which works very well for me with the hexagonal architecture [[3]]. When the first test is an external test, like a Selinium test for example, you could be in a position where the leaf that you hit is an adapter and you have to fetch data from a store to remove the MagicNumber. Chances are that when you do that the test will turn red because you did not insert anything in the first place because it was not the fastest way to green the test. When that happens, don't panic, just use MagicNumber again on the writing-data side of the story.
+
+How can you practice that with a coding kata? Here is one example.
+
+```javascript
+...
+let joe = NotSoGoodMathematician();
+expect(joe.primesOf(1492)).to.equal('sorry, no idea')
+
+joe.remember(1492, [2, 2, 373]);
+expect(joe.primesOf(1492)).to.equal([2, 2, 373])
+
+class NotSoGoodMathematician {
+    constructor() {
+        this.store = {};
+    }
+    remember(number, primes) {
+        this.store[1492] = [2, 2, 373];
+    }
+    primesOf(number) {
+        let decomposition = this.store[number];
+        if (! decomposition) {
+            return 'Sorry, no idea';
+        }
+    }
+}
+```
 
 Hope that helps :)
 
