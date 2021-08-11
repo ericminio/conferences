@@ -1,4 +1,4 @@
-# How to leverage the MagicNumber pattern #IRL
+# How to leverage the MagicNumber pattern #IRL ?
 
 ## Magic what?
 
