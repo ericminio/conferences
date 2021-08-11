@@ -10,7 +10,7 @@ expect(primeFactorsOf(1492)).to.deep.equal([2, 2, 373])
 let primeFactorsOf = (number) => [2, 2, 373]
 ```
 
-**[2, 2, 373]**, hardcoded value, the **MagicNumber** [[1]]. Note that some call that a Duplication instead.
+**[2, 2, 373]**, hardcoded value, the **MagicNumber**[[1]]. Note that some call that a Duplication instead.
 
 Then what?
 
@@ -40,19 +40,15 @@ class Mathematician {
 
 We moved the MagicNumber. Test is still green. And our architecture emerges if not already existing.
 
-What is the next move now? Now I have the opportunity to triangulate with an internal test against the Mathematician class, instead of writing another external test. This is also something I want to practice. I don't want to rely only on external tests. Remember the test pyramid [[2]]!
+What is the next move now? Now I have the opportunity to triangulate with an internal test against the Mathematician class, instead of writing another external test. This is also something I want to practice. I don't want to rely only on external tests. Remember the test pyramid[[2]]!
 
 ## In Real Life
 
-In the context of a web app, when the http request hits the server, then probably the http component will ask for help to another component. Moving the MagicNumber in this other component makes you remove it from the http component. In order to do that, the http component will have to be more generic, and the refactoring opportunities will move to the next component with the MagicNumber.
+In the context of a web app, when the http request hits the server, then the http component will ask for help to another component. Moving the MagicNumber in this other component makes you remove it from the http component which becomes more generic. The refactoring opportunities will move to the next component and I can repeat the pattern from there.
 
-Thanks to the coding kata practice, my muscles memory is telling me to write internal tests during this refactoring effort of moving and eventually removing the MagicNumber. I continue the game of moving the MagicNumber in the architecture until I hit a leaf: no more other component to which I can push the MagicNumber. This is when time has come to remove the MagicNumber. 
+Thanks to the coding kata practice, my muscles memory is telling me to write internal tests during this refactoring effort of moving and eventually removing the MagicNumber. 
 
-## Final thought
-
-When my first test is an external test, like a Selinium test for example, the last component I hit is usually an adapter [[3]] and I have to fetch data from a store to remove the MagicNumber. When I do that the external test turns red because I did not insert any data in the first place. 
-
-When that happens, no panic! MagicNumber is here again to help on the writing-data side of the story.
+There is a special moment in this journey when I hit what looks like a leaf in the architecture, usually an adapter[[3]]. If I simply remove the MagicNumber then chances are that the external test will turn red because I did not insert any data in the first place. To stay green, I actually have to continue with moving the MagicNumber, this time on the writing-data side of the story.
 
 Hope that helps :)
 
