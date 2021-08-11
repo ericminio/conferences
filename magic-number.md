@@ -11,7 +11,7 @@ expect(primeFactorsOf(1492)).to.equal([2, 2, 373])
 let primeFactorsOf = (number) => [2, 2, 373]
 ```
 
-**[2, 2, 373]**, hardcoded value, the **MagicNumber** [[1]]
+**[2, 2, 373]**, hardcoded value, the **MagicNumber** [[1]]. Note that some call that a **Duplication** instead. 
 
 Then what?
 
