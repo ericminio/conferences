@@ -2,7 +2,7 @@
 
 ## Magic what?
 
-When you start reading about and trying Test-Driven Development (TDD), you very often discover the coding katas practice. And not long after you watch a video or you attend a conference and you see that the next move to answer the first failing test is to return the hardcoded value that greens the test. With the prime factors kata, it would look similar to the following.
+When you start reading about and trying Test-Driven Development (TDD), you very often discover the coding kata practice. And you see that the next move to answer the first failing test is to return a hardcoded value that greens the test. With the prime factors kata, it would look similar to the following.
 
 ```javascript
 expect(primeFactorsOf(1492)).to.deep.equal([2, 2, 373])
@@ -18,7 +18,7 @@ And how is that useful for real life?
 
 ## Next move
 
-Assuming a coding kata is useful for real life, then I want the next move to build up my muscle memory for real life. When all my tests are green I have 2 options: a: write a new test, or b: refactor. Maybe in real life, I have no idea which new test to write, or maybe I have no clue how to refactor the current code.  Maybe the  test is an internal test exercising an internal class, or maybe the test is an external test like a Selenium test clicking on a page and expecting something that the current code produces with a MagicNumber.
+Assuming a coding kata is useful for real life, then I want the practice to build up my muscle memory for real life. When all my tests are green I have 2 options: a: write a new test, or b: refactor. Maybe in real life, I have no idea which new test to write, or maybe I have no clue how to refactor the current code.  Maybe the  test is an internal test exercising an internal class, or maybe the test is an external test like a Selenium test clicking on a page and expecting something that the current code produces with a MagicNumber.
 
 What works well for me is to **move the MagicNumber** inside my architecture, creating it if needed. In the context of a coding kata, it could mean something like the following.
 
