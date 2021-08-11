@@ -48,9 +48,10 @@ What is the next move now? Now I have the opportunity to write an internal test 
 
 In the context of a web app, when the http request hits the server, then probably the http component will ask for help to another component. Moving the MagicNumber in this other component makes you remove it from the http component. In order to do that, chances are your http component will have to be more generic, cleaner, and the refactoring opportunities will move along with the MagicNumber to the other component.
 
-You can continue the game of moving the MagicNumber in your architecture until you hit a leaf: no more other component to which you can continue to push the MagicNumber. This is when time has come to remove the MagicNumber.
+Thanks to the coding kata practice, my muscles memory is telling me to write internal tests along with this refactoring effort to move and eventually remove the MagicNumber.
 
-During this 
+I continue the game of moving the MagicNumber in the architecture until I hit a leaf: no more other component to which I can push the MagicNumber. This is when time has come to remove the MagicNumber.
+
 
 [1]:https://wiki.c2.com/?MagicNumber
 [2]:https://martinfowler.com/articles/practical-test-pyramid.html
